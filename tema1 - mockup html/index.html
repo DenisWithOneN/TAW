@@ -41,15 +41,22 @@
         bottom: 0;
         left: 40%;
         text-align: center;
-
       }
-      
+
       .navigationTabStyle {
         /* css for the black bars between links in the navigation tab */
         border-right: 2px solid #000;
         padding-right: 20px;
-        
-        
+      }
+
+
+      .arrow {
+        border: solid black;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 3px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
       }
     </style>
   </head>
@@ -59,11 +66,13 @@
       <a href="images" class="navigationTabStyle">Images</a>
       <a href="maps" class="navigationTabStyle">Maps</a>
       <a href="news" class="navigationTabStyle">News</a>
+      <a href="more" class="moreButton">more</a>
+      <i class="arrow"></i>
     </div>
 
     <div class="navigationTabRight">
       <a href="boogle" class="navigationTabStyle">Boogle</a>
-      <a href="sign_in" style="padding: 0px 20px; text-wrap:nowrap;">Sign in</a>
+      <a href="sign_in" style="padding: 0px 20px; text-wrap: nowrap">Sign in</a>
     </div>
 
     <div class="searchArea">
@@ -73,9 +82,9 @@
 
       <div>
         <!-- made the size of the search bar responsive for different screens -->
-        <input type="text" style="width: calc(100% - 180px)"/>
-        <div style="display: inline; float: right; text-align: left;">
-          <a href="advanced_search">Advanced Search</a><br>
+        <input type="text" style="width: calc(100% - 180px)" />
+        <div style="display: inline; float: right; text-align: left">
+          <a href="advanced_search">Advanced Search</a><br />
           <a href="preferences">Preferences</a>
         </div>
       </div>
@@ -87,9 +96,11 @@
     </div>
 
     <div class="footer">
-      <a href="advertising_programs" style="margin: 10px;">Advertising Programs</a>
-      <a href="business_solutions" style="margin: 10px;">Business Solutions</a>
-      <a href="about_boogle" style="margin: 10px;">About Boogle</a>
+      <a href="advertising_programs" style="margin: 10px"
+        >Advertising Programs</a
+      >
+      <a href="business_solutions" style="margin: 10px">Business Solutions</a>
+      <a href="about_boogle" style="margin: 10px">About Boogle</a>
       <p>©2008 Boogle</p>
     </div>
   </body>
