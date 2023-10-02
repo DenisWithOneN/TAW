@@ -11,8 +11,10 @@
       }
 
       .navigationTabRight {
+        display: flex;
         position: absolute;
         margin: 10px;
+        padding-right: 50px;
         top: 0;
         right: 0;
         width: 120px;
@@ -38,19 +40,26 @@
         text-align: center;
 
       }
+      
+      .navigationTabStyle {
+        border-right: 2px solid #000;
+        padding-right: 20px;
+        
+        
+      }
     </style>
   </head>
   <body>
     <div class="navigationTab">
-      <a href="web">Web</a>
-      <a href="images">Images</a>
-      <a href="maps">Maps</a>
-      <a href="news">News</a>
+      <a href="web" class="navigationTabStyle">Web</a>
+      <a href="images" class="navigationTabStyle">Images</a>
+      <a href="maps" class="navigationTabStyle">Maps</a>
+      <a href="news" class="navigationTabStyle">News</a>
     </div>
 
     <div class="navigationTabRight">
-      <a href="boogle" style="margin: 10px;">Boogle</a>
-      <a href="sign_in" >Sign in</a>
+      <a href="boogle" class="navigationTabStyle">Boogle</a>
+      <a href="sign_in" style="padding: 0px 20px; text-wrap:nowrap;">Sign in</a>
     </div>
 
     <div class="searchArea">
