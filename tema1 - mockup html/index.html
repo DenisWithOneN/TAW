@@ -15,8 +15,20 @@
         margin: 10px;
         top: 0;
         right: 0;
-        width: 100px;
-        text-align: right;
+        width: 120px;
+      }
+
+      .searchArea {
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .buttons {
+        margin: auto;
+        padding: 30px;
+        text-align: center;
       }
     </style>
   </head>
@@ -33,26 +45,30 @@
       <a href="sign_in">Sign in</a>
     </div>
 
-    <div>
+    <div class="searchArea">
       <div>
         <h1>Boogle</h1>
       </div>
-      <input type="text" />
+
       <div>
-        <a href="advanced_search">Advanced Search</a><br />
-        <a href="preferences">Preferences</a>
+        <input type="text" size="80%;" />
+        <div style="display: inline; margin-left: 10px;">
+          <a href="advanced_search">Advanced Search</a>
+          <a href="preferences">Preferences</a>
+        </div>
       </div>
-      <div>
-        <button>Boogle Search</button>
-        <button>I'm Feeling Lucky</button>
+
+      <div class="buttons">
+        <button style="margin-right: 10px" ;>Boogle Search</button>
+        <button style="margin-left: 10px">I'm Feeling Lucky</button>
       </div>
     </div>
 
     <div>
-        <a>Advertising Programs</a>
-        <a>Business Solutions</a>
-        <a>About Boogle</a>
-        <p>©2008 Boogle</p>
+      <a href="advertising_programs">Advertising Programs</a>
+      <a href="business_solutions">Business Solutions</a>
+      <a href="about_boogle">About Boogle</a>
+      <p>©2008 Boogle</p>
     </div>
   </body>
 </html>
