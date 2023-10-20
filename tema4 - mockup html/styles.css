@@ -6,6 +6,25 @@
     display: inline-block;
   }
 
+  .small-dot {
+    height: 2rem;
+    width: 2rem;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .rectangle {
+    height: 2rem;
+    width: 5rem;
+    background-color: grey;
+    display: inline-block;
+  }
+
   .menu-height {
     height: 4rem;
+  }
+
+  .services {
+    margin-left: 7rem;
   }
