@@ -54,12 +54,24 @@
     width: 20rem;
     height: 1rem;
     border-radius: 0.3rem;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .circle-shape {
     border-radius: 50%;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     width: 5rem;
     height: 5rem;
 }
+
+.gallery-container {
+    width: 5rem;
+    height: 10rem;
+}
+
+.gallery-box {
+    height: 6rem;
+    width: 12rem;
+    background-color: rgb(255, 255, 255);
+}
+
