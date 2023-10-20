@@ -1,0 +1,11 @@
+.dot {
+    height: 4rem;
+    width: 4rem;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .menu-height {
+    height: 4rem;
+  }
