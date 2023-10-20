@@ -75,3 +75,17 @@
     background-color: rgb(255, 255, 255);
 }
 
+.form-text-box {
+    background-color: gray;
+    width: 20rem;
+    height: 1rem;
+    border-radius: 0.2rem
+}
+
+.form-text-box-right {
+    width: 16rem;
+    height: 1rem;
+}
+
+
+
