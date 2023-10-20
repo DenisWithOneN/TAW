@@ -1,3 +1,8 @@
+.border-corner {
+    border-radius: 0.5rem;
+}
+
+
 .white-rect {
     height: 3rem;
     width: 8rem;
@@ -15,7 +20,6 @@
 .small-blue-rect {
     height: 1.5rem;
     width: 8rem;
-    background-color: rgb(60, 0, 255);
     border-radius: 0.8rem;
 }
 
@@ -30,4 +34,18 @@
     height: 2rem;
     width: 30rem;
     background-color: grey;
+    border-radius: 0.5rem;
+}
+
+.large-grey-rect-two {
+    height: 2rem;
+    width: 20rem;
+    background-color: grey;
+    border-radius: 0.5rem;
+}
+
+.large-blue-rect {
+    height: 3rem;
+    width: 30rem;
+    border-radius: 0.5rem;
 }
