@@ -49,3 +49,17 @@
     width: 30rem;
     border-radius: 0.5rem;
 }
+
+.feature-box {
+    width: 20rem;
+    height: 1rem;
+    border-radius: 0.3rem;
+    background-color: aliceblue;
+}
+
+.circle-shape {
+    border-radius: 50%;
+    background-color: antiquewhite;
+    width: 5rem;
+    height: 5rem;
+}
