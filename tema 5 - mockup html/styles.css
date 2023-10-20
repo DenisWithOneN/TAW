@@ -1,0 +1,33 @@
+.white-rect {
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+}
+
+.small-white-rect {
+    height: 1.5rem;
+    width: 8rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+}
+
+.small-blue-rect {
+    height: 1.5rem;
+    width: 8rem;
+    background-color: rgb(60, 0, 255);
+    border-radius: 0.8rem;
+}
+
+.large-grey-sqr{
+    height: 20rem;
+    width: 20rem;
+    background-color: grey;
+    border-radius: 0.5rem;
+}
+
+.large-grey-rect {
+    height: 2rem;
+    width: 30rem;
+    background-color: grey;
+}
